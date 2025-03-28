@@ -1,0 +1,49 @@
+/*横式中文版式*/
+.center {
+	text-align: center;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+.text {
+	text-align: justify;
+	margin-left: 0%;
+	margin-right: 0%;
+	text-indent: 2em;
+	line-height:150%;
+}
+.nameright {
+	text-align: right;
+	margin-left: 0%;
+	margin-right: 4em;
+}
+.right {
+	text-align: right;
+	margin-left: 0%;
+	margin-right: 2em;
+}
+.poem {
+	text-align: left;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 4em;
+	text-indent: 0%;
+	line-height: 130%;
+}
+.quotedpassage {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 2em;
+	text-indent: 0%;
+	line-height:130%;
+}
+.note {
+	font-size: 80%;
+	line-height:130%;
+}
+a{
+text-decoration:none;
+}
+.temp{
+	background-color: green;
+	background-color: yellow;
+}

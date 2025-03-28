@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package unique-identifier="unique-identifier" version="3.0" xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf">
+	<metadata>
+		<dc:identifier id="uuid_id">10186-126</dc:identifier>
+		<dc:title>三国志通俗演义</dc:title>
+		<dc:creator>罗贯中</dc:creator>
+		<dc:description>三国志通俗演义</dc:description>
+		<dc:language>zh-cn</dc:language>
+		<dc:date>2025</dc:date>
+		<dc:contributor>GUEBR</dc:contributor>
+		<dc:publisher>上海古籍出版社</dc:publisher>
+		<meta name="cover" content="cover_image" />
+	</metadata>
+	<manifest>
+		<item href="../cover_image.jpg" id="cover_image" media-type="image/jpeg"/>
+		<item href="../TEXT/a000preface.html" id="0preface" media-type="application/xhtml+xml"/>
+		<item href="../TEXT/a001contents.html" id="contents" media-type="application/xhtml+xml"/>
+		<item href="../TEXT/a002preface.html" id="1preface" media-type="application/xhtml+xml"/>
+		<item href="../TEXT/a003preface.html" id="2preface" media-type="application/xhtml+xml"/>
+		<item href="../TEXT/a004people.html" id="people" media-type="application/xhtml+xml"/>
+		<item href="../TEXT/b001chapter.html" id="001chapter" media-type="application/xhtml+xml"/>
+		<item href="../TEXT/b002chapter.html" id="002chapter" media-type="application/xhtml+xml"/>
+		<item href="../TEXT/b003chapter.html" id="003chapter" media-type="application/xhtml+xml"/>
+		<item href="../TEXT/b004chapter.html" id="004chapter" media-type="application/xhtml+xml"/>
+		<item href="../TEXT/b005chapter.html" id="005chapter" media-type="application/xhtml+xml"/>
+		<item href="../TEXT/b006chapter.html" id="006chapter" media-type="application/xhtml+xml"/>
+		<item href="../TEXT/b007chapter.html" id="007chapter" media-type="application/xhtml+xml"/>
+		<item href="../TEXT/b008chapter.html" id="008chapter" media-type="application/xhtml+xml"/>
+		
+		<item href="../Styles/stylesheet.css" id="css" media-type="text/css"/>
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="cover_image"/>
+		<itemref idref="0preface"/>
+		<itemref idref="contents"/>
+		<itemref idref="1preface"/>
+		<itemref idref="2preface"/>
+		<itemref idref="people"/>
+		<itemref idref="001chapter"/>
+		<itemref idref="002chapter"/>
+		<itemref idref="003chapter"/>
+		<itemref idref="004chapter"/>
+		<itemref idref="005chapter"/>
+		<itemref idref="006chapter"/>
+		<itemref idref="007chapter"/>
+		<itemref idref="008chapter"/>
+		<itemref idref="page"/>
+	</spine>
+	<guide>
+		<reference href="../cover_image.jpg" title="cover" type="cover"/>
+	</guide>
+</package>
