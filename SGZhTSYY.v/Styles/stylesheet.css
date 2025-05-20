@@ -1,0 +1,55 @@
+/*竪版中文*/
+body {
+writing-mode: vertical-rl;
+-epub-writing-mode: vertical-rl;
+-webkit-writing-mode: vertical-rl;
+font-family: MineLiu}
+.volume {
+	margin-left: 0%;
+	margin-right: 0%;
+	text-indent: 0em;
+}
+.authorship {
+	text-align: right;
+	margin-bottom: 1em;
+}
+.title {
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-top: 3em;
+}
+.text {
+	text-align: justify;
+	line-height:150%;
+}
+.note {
+	display: inline-block;
+	font-size: 50%;
+	line-height:100%;
+	white-space: pre-wrap;
+	margin-top: 0.2em;
+}
+.poem {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	line-height: 130%;
+}
+
+
+.quotedpassage {
+	margin-top: 1em;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	text-indent: 0%;
+	line-height:130%;
+}
+
+a{
+text-decoration:none;
+}
+.temp{
+	background-color: green;
+	background-color: yellow;
+}
