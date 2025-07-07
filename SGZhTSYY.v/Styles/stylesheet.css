@@ -28,6 +28,7 @@ font-family: MineLiu}
 	line-height:100%;
 	white-space: pre-wrap;
 	margin-top: 0.2em;
+	vertical-align: middle;
 }
 .poem {
 	margin-top: 2em;
@@ -37,13 +38,16 @@ font-family: MineLiu}
 	line-height: 130%;
 }
 
-
 .quotedpassage {
 	margin-top: 1em;
 	margin-left: 0.5em;
 	margin-right: 0.5em;
 	text-indent: 0%;
 	line-height:130%;
+}
+
+.humble {
+	font-size: 70%;
 }
 
 a{
