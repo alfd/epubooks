@@ -1,9 +1,18 @@
 /*竪版中文*/
+@font-face {
+  font-family: 'Mingliu';
+  src: url('mingliub.ttc');
+}
+
 body {
-writing-mode: vertical-rl;
--epub-writing-mode: vertical-rl;
--webkit-writing-mode: vertical-rl;
-font-family: MineLiu}
+	writing-mode: vertical-rl;
+	-epub-writing-mode: vertical-rl;
+	-webkit-writing-mode: vertical-rl;
+ 	font-family: "MingLiu", "Source Han Serif", "Noto Serif CJK", serif;
+    font-weight: 400;
+    font-style: normal;
+	line-height:150%;
+}
 .volume {
 	margin-left: 0%;
 	margin-right: 0%;
@@ -17,10 +26,6 @@ font-family: MineLiu}
 	margin-left: 0%;
 	margin-right: 0%;
 	margin-top: 3em;
-}
-.text {
-	text-align: justify;
-	line-height:150%;
 }
 .note {
 	display: inline-block;
