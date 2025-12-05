@@ -32,14 +32,15 @@ body {
 	font-size: 50%;
 	line-height:100%;
 	white-space: pre-wrap;
-	margin-top: 0.2em;
+	margin-top: 0.1em;
+	margin-bottom: 0.3em;
 	vertical-align: middle;
 }
 .poem {
 	margin-top: 2em;
 	margin-bottom: 2em;
 	margin-left: 0.5em;
-	margin-right: 0.5em;
+	margin-right: 0em;
 	line-height: 130%;
 }
 
